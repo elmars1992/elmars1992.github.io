@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elmars Dunskis — Web Development, Data Automation & Multilingual Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <div class="flex items-center gap-3">
+        <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-600 font-bold text-white shadow-lg shadow-indigo-600/30">ED</span>
+        <div>
+          <div class="font-bold tracking-tight text-white">Elmars Dunskis</div>
+          <div class="text-xs text-slate-400">ED Media & Digital Engineering • Italy (EU)</div>
+        </div>
+      </div>
+      <nav class="hidden gap-6 text-sm font-medium text-slate-300 md:flex">
+        <a href="#services" class="hover:text-white">Services</a>
+        <a href="#dashboard-demo" class="hover:text-white">Live KPI Dashboard</a>
+        <a href="#scraper-demo" class="hover:text-white">Data & Document Pipeline</a>
+        <a href="#languages" class="hover:text-white">5-Language Studio</a>
+      </nav>
+      <a href="https://www.freelancer.com/u/elmars1992" target="_blank" class="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-indigo-500">Hire on Freelancer</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden border-b border-slate-900 py-20">
+    <div class="mx-auto max-w-6xl px-6">
+      <div class="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3.5 py-1.5 text-xs font-medium text-indigo-300">
+        <span class="h-2 w-2 rounded-full bg-emerald-400"></span> Available for European & Global Projects
+      </div>
+      <h1 class="mt-6 max-w-4xl text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
+        High-Precision <span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Web Engineering, Python Data Pipelines</span> & Multilingual Delivery.
+      </h1>
+      <p class="mt-6 max-w-2xl text-lg text-slate-400">
+        Based in Italy. Building fast responsive web applications, interactive analytics dashboards, automated Python data extraction workflows, and 99.8% accurate technical transcription & localization across English, Italian, German, Latvian, and Russian.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="#dashboard-demo" class="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-slate-950 shadow hover:bg-slate-200">Explore Interactive Demos</a>
+        <a href="https://github.com/elmars1992" target="_blank" class="rounded-xl border border-slate-800 bg-slate-900/60 px-6 py-3 text-sm font-semibold text-slate-200 hover:border-slate-700">GitHub Repositories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services -->
+  <section id="services" class="py-16 border-b border-slate-900">
+    <div class="mx-auto max-w-6xl px-6">
+      <h2 class="text-2xl font-bold text-white">Core Capabilities</h2>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+          <div class="text-xs font-semibold uppercase tracking-wider text-indigo-400">01 / Web & Dashboards</div>
+          <h3 class="mt-2 text-lg font-bold text-white">Modern Web Apps & Landing Pages</h3>
+          <p class="mt-2 text-sm text-slate-400">Responsive HTML5, Tailwind CSS, React/Next.js, and WordPress builds optimized for conversion, speed, and mobile UX.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+          <div class="text-xs font-semibold uppercase tracking-wider text-cyan-400">02 / Python & Data</div>
+          <h3 class="mt-2 text-lg font-bold text-white">Scraping, Cleaning & Automation</h3>
+          <p class="mt-2 text-sm text-slate-400">Automated Python (Pandas) CSV/Excel deduplication, structured web scraping, PDF-to-Word conversion, and Telegram/API bots.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+          <div class="text-xs font-semibold uppercase tracking-wider text-emerald-400">03 / Multilingual Media</div>
+          <h3 class="mt-2 text-lg font-bold text-white">Transcription, Subtitles & Localization</h3>
+          <p class="mt-2 text-sm text-slate-400">Time-coded .SRT/.VTT captions, verbatim audio/video transcripts, and native-grade localization in EN, IT, DE, LV, and RU.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Interactive Dashboard Demo -->
+  <section id="dashboard-demo" class="py-16 border-b border-slate-900">
+    <div class="mx-auto max-w-6xl px-6">
+      <div class="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+        <div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-indigo-400">Interactive Live Preview</span>
+          <h2 class="mt-1 text-2xl font-bold text-white">Customer Activity & Operations KPI Dashboard</h2>
+          <p class="mt-1 text-sm text-slate-400">Filter live cohort data by region and timeframe to preview interactive chart updates and funnel metrics.</p>
+        </div>
+        <div class="flex gap-3">
+          <select id="regionFilter" class="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-white" onchange="updateDashboard()">
+            <option value="all">All Regions (EU + US)</option>
+            <option value="eu">Europe (IT / DE / LV)</option>
+            <option value="us">North America (US)</option>
+          </select>
+          <select id="rangeFilter" class="rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-white" onchange="updateDashboard()">
+            <option value="30">Last 30 Days</option>
+            <option value="90">Last 90 Days</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mt-8 grid gap-4 sm:grid-cols-4">
+        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
+          <div class="text-xs text-slate-400">Processed Records</div>
+          <div id="kpiRecords" class="mt-2 text-2xl font-bold text-white">142,850</div>
+          <div class="mt-1 text-xs text-emerald-400">+18.4% validated clean</div>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
+          <div class="text-xs text-slate-400">Conversion Rate</div>
+          <div id="kpiConv" class="mt-2 text-2xl font-bold text-white">6.82%</div>
+          <div class="mt-1 text-xs text-emerald-400">+1.2% vs prior period</div>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
+          <div class="text-xs text-slate-400">On-Time SLA Delivery</div>
+          <div id="kpiSla" class="mt-2 text-2xl font-bold text-white">99.4%</div>
+          <div class="mt-1 text-xs text-indigo-400">Automated sync active</div>
+        </div>
+        <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-5">
+          <div class="text-xs text-slate-400">Duplicates Removed</div>
+          <div id="kpiDup" class="mt-2 text-2xl font-bold text-white">11,420</div>
+          <div class="mt-1 text-xs text-cyan-400">100% schema compliant</div>
+        </div>
+      </div>
+
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+          <h3 class="text-sm font-semibold text-slate-300">Weekly Active Engagement & Orders</h3>
+          <canvas id="activityChart" height="180" class="mt-4"></canvas>
+        </div>
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
+          <h3 class="text-sm font-semibold text-slate-300">Conversion Funnel by Stage</h3>
+          <canvas id="funnelChart" height="180" class="mt-4"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live CSV Deduplicator & Text Tool Demo -->
+  <section id="scraper-demo" class="py-16 border-b border-slate-900">
+    <div class="mx-auto max-w-6xl px-6">
+      <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Interactive Utility</span>
+      <h2 class="mt-1 text-2xl font-bold text-white">Instant CSV / Lead List Deduplicator & Cleaner</h2>
+      <p class="mt-1 text-sm text-slate-400">Test our live client-side data normalizer: trims whitespace, normalizes SKU/email keys, and retains the most complete record.</p>
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div>
+          <label class="text-xs font-semibold uppercase text-slate-400">Raw Input (CSV with duplicates)</label>
+          <textarea id="csvInput" rows="7" class="mt-2 w-full rounded-xl border border-slate-800 bg-slate-900 p-4 font-mono text-xs text-slate-200">SKU,Title,Price,Category,Notes
+A-101, Wireless Mouse ,24.99,Accessories,
+a-101,Wireless Mouse,24.99,Accessories,Full ergonomic spec + 2yr warranty
+B-204,Mechanical Keyboard,89.00,Hardware,RGB Backlit
+B-204,Mechanical Keyboard,89.00,,</textarea>
+          <button onclick="cleanCsv()" class="mt-3 rounded-lg bg-cyan-500 px-4 py-2 text-xs font-bold text-slate-950 hover:bg-cyan-400">Run Deduplication & Keep Most Complete</button>
+        </div>
+        <div>
+          <label class="text-xs font-semibold uppercase text-slate-400">Cleaned Output (Deduplicated)</label>
+          <textarea id="csvOutput" rows="7" readonly class="mt-2 w-full rounded-xl border border-slate-800 bg-slate-950 p-4 font-mono text-xs text-emerald-400"></textarea>
+          <div id="csvStats" class="mt-3 text-xs text-slate-400">Click Run to test deduplication logic.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multilingual Section -->
+  <section id="languages" class="py-16">
+    <div class="mx-auto max-w-6xl px-6">
+      <h2 class="text-2xl font-bold text-white">5-Language European Localization & Transcription</h2>
+      <p class="mt-2 text-sm text-slate-400">Native & fluent support across five European languages for websites, subtitles (.SRT/.VTT), and business documents.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <span class="rounded-xl border border-slate-800 bg-slate-900 px-4 py-2.5 text-sm font-medium">🇬🇧 English (Fluent)</span>
+        <span class="rounded-xl border border-slate-800 bg-slate-900 px-4 py-2.5 text-sm font-medium">🇮🇹 Italiano (Italy Base)</span>
+        <span class="rounded-xl border border-slate-800 bg-slate-900 px-4 py-2.5 text-sm font-medium">🇩🇪 Deutsch (German)</span>
+        <span class="rounded-xl border border-slate-800 bg-slate-900 px-4 py-2.5 text-sm font-medium">🇱🇻 Latviešu (Native)</span>
+        <span class="rounded-xl border border-slate-800 bg-slate-900 px-4 py-2.5 text-sm font-medium">🇷🇺 Русский (Native)</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-900 py-8 text-center text-xs text-slate-500">
+    © 2026 Elmars Dunskis (ED Media Services • Italy). Live Portfolio hosted on GitHub Pages.
+  </footer>
+
+  <script>
+    const datasets = {
+      all: { records: '142,850', conv: '6.82%', sla: '99.4%', dup: '11,420', line: [320, 410, 395, 520, 610, 690], funnel: [10000, 6400, 2900, 1150, 682] },
+      eu:  { records: '88,410',  conv: '7.45%', sla: '99.7%', dup: '6,890',  line: [210, 260, 255, 330, 390, 440], funnel: [6200, 4100, 1950, 820, 462] },
+      us:  { records: '54,440',  conv: '5.91%', sla: '99.0%', dup: '4,530',  line: [110, 150, 140, 190, 220, 250], funnel: [3800, 2300, 950, 330, 220] }
+    };
+    const ctx1 = document.getElementById('activityChart').getContext('2d');
+    const activityChart = new Chart(ctx1, {
+      type: 'line',
+      data: { labels: ['W1', 'W2', 'W3', 'W4', 'W5', 'W6'], datasets: [{ label: 'Processed Batches', data: datasets.all.line, borderColor: '#6366f1', backgroundColor: 'rgba(99,102,241,0.15)', fill: true, tension: 0.35 }] },
+      options: { plugins: { legend: { display: false } }, scales: { y: { ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } }, x: { ticks: { color: '#94a3b8' }, grid: { display: false } } } }
+    });
+    const ctx2 = document.getElementById('funnelChart').getContext('2d');
+    const funnelChart = new Chart(ctx2, {
+      type: 'bar',
+      data: { labels: ['Visitors', 'Engaged', 'Qualified', 'Trial', 'Converted'], datasets: [{ label: 'Users', data: datasets.all.funnel, backgroundColor: ['#6366f1', '#818cf8', '#38bdf8', '#34d399', '#10b981'], borderRadius: 6 }] },
+      options: { plugins: { legend: { display: false } }, scales: { y: { ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } }, x: { ticks: { color: '#94a3b8' }, grid: { display: false } } } }
+    });
+    function updateDashboard() {
+      const reg = document.getElementById('regionFilter').value;
+      const mult = document.getElementById('rangeFilter').value === '90' ? 2.6 : 1;
+      const d = datasets[reg];
+      document.getElementById('kpiRecords').innerText = d.records;
+      document.getElementById('kpiConv').innerText = d.conv;
+      document.getElementById('kpiSla').innerText = d.sla;
+      document.getElementById('kpiDup').innerText = d.dup;
+      activityChart.data.datasets[0].data = d.line.map(v => Math.round(v * mult));
+      activityChart.update();
+      funnelChart.data.datasets[0].data = d.funnel.map(v => Math.round(v * mult));
+      funnelChart.update();
+    }
+    function cleanCsv() {
+      const lines = document.getElementById('csvInput').value.trim().split(/\r?\n/);
+      if (lines.length < 2) return;
+      const header = lines[0];
+      const bestByKey = new Map();
+      let removed = 0;
+      for (let i = 1; i < lines.length; i++) {
+        const cols = lines[i].split(',').map(c => c.trim());
+        const key = (cols[0] || '').toLowerCase();
+        if (!key) continue;
+        const score = cols.reduce((acc, c) => acc + (c ? c.length + 10 : 0), 0);
+        if (!bestByKey.has(key)) {
+          bestByKey.set(key, { row: cols.join(','), score });
+        } else {
+          removed++;
+          if (score > bestByKey.get(key).score) bestByKey.set(key, { row: cols.join(','), score });
+        }
+      }
+      const out = [header, ...Array.from(bestByKey.values()).map(v => v.row)].join('\n');
+      document.getElementById('csvOutput').value = out;
+      document.getElementById('csvStats').innerText = `Processed ${lines.length - 1} rows → Retained ${bestByKey.size} most complete unique records (${removed} duplicates removed).`;
+    }
+    cleanCsv();
+  </script>
+</body>
+</html>
